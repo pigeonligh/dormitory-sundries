@@ -68,7 +68,7 @@ func Permutations(n int, ords []order) int {
 }
 
 func main() {
-	fmt.Println(Permutations(10, []order{
+	fmt.Println(Permutations(12, []order{
 		{3, 5},
 		{8, 4},
 	}))
